@@ -11,6 +11,7 @@ export default function Hero({ release, loading }) {
     <section className="relative min-h-screen flex flex-col items-center justify-center pt-16 pb-12 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-grid" />
+      <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-[#07070a] to-transparent pointer-events-none z-10" />
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] bg-red-600/8 blur-[130px] rounded-full pointer-events-none" />
       <div className="absolute top-10 right-[-10%] w-[500px] h-[500px] bg-red-800/5 blur-[100px] rounded-full pointer-events-none" />
       <div className="absolute bottom-0 left-[-10%] w-[400px] h-[400px] bg-red-900/5 blur-[100px] rounded-full pointer-events-none" />
